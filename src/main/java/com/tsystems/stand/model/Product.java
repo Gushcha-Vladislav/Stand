@@ -5,7 +5,7 @@ public class Product {
 
     private int id;
 
-    private String name;
+    private String nameProduct;
 
     private int price;
 
@@ -16,9 +16,9 @@ public class Product {
     public Product() {
     }
 
-    public Product(int id, String name, int price, String image, int numberOfSales) {
+    public Product(int id, String nameProduct, int price, String image, int numberOfSales) {
         this.id = id;
-        this.name = name;
+        this.nameProduct = nameProduct;
         this.price = price;
         this.image = image;
         this.numberOfSales = numberOfSales;
@@ -32,12 +32,12 @@ public class Product {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getNameProduct() {
+        return nameProduct;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNameProduct(String name) {
+        this.nameProduct = nameProduct;
     }
 
     public int getPrice() {
